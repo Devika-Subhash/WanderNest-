@@ -9,28 +9,20 @@
     --primary:#2D6A4F;
     --primary-light:#40916C;
     --accent:#F4A261;
-
     --background:#F8F9FA;
     --surface:#FFFFFF;
-
     --text-dark:#1B4332;
     --text-light:#6C757D;
-
     --border:#E9ECEF;
-
     --success:#28A745;
     --warning:#FFC107;
     --danger:#DC3545;
-
     --shadow:0 8px 30px rgba(0,0,0,.08);
-
     --radius:14px;
-
     --transition:.3s ease;
 }
 
 body{
-
     font-family:"Inter",sans-serif;
     background:var(--background);
     color:var(--text-dark);

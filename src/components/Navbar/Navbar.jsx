@@ -2,16 +2,17 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes, FaPlaneDeparture } from "react-icons/fa";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="navbar">
-      <div className="logo">
+      <Link to="/" className="logo">
         <FaPlaneDeparture className="logo-icon" />
         <span>WanderNest</span>
-      </div>
+      </Link>
 
       <ul className={menuOpen ? "nav-links active" : "nav-links"}>
         <li>
