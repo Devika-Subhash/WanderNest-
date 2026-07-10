@@ -8,6 +8,7 @@
 
     --primary:#2D6A4F;
     --primary-light:#40916C;
+    --primary-dark:#1B4332;
     --accent:#F4A261;
     --background:#F8F9FA;
     --surface:#FFFFFF;
@@ -18,8 +19,13 @@
     --warning:#FFC107;
     --danger:#DC3545;
     --shadow:0 8px 30px rgba(0,0,0,.08);
-    --radius:14px;
+    --radius-sm:10px;
+    --radius-md:14px;
+    --radius-lg:22px;
     --transition:.3s ease;
+    --container-width:1200px;
+    --section-padding:100px;
+    --navbar-height:90px;
 }
 
 body{

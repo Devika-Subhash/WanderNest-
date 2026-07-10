@@ -1,4 +1,5 @@
 import "./Hero.css";
+import SearchBar from "../SearchBar/SearchBar";
 
 function Hero() {
   return (
@@ -31,8 +32,9 @@ function Hero() {
           </button>
 
         </div>
-
+  <SearchBar />
       </div>
+
     </section>
   );
 }
