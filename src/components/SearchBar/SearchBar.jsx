@@ -12,7 +12,7 @@ function SearchBar() {
         <label><span><FaMapMarkerAlt />Destination</span></label>
         <input
           type="text"
-          placeholder="Where are you going?"
+          placeholder="Enter city or country"
         />
       </div>
 

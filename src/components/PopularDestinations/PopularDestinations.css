@@ -1,0 +1,27 @@
+.popular-destinations{
+    padding:90px 8%;
+    background:rgb(242, 244, 240);
+}
+
+.popular-destinations h2{
+    text-align:center;
+    font-size:3rem;
+    color:var(--text-dark);
+    margin-bottom:20px;
+}
+
+.popular-destinations p{
+    text-align:center;
+    color:var(--text-light);
+    max-width:700px;
+    margin:auto;
+    margin-bottom:60px;
+    line-height:1.8;
+}
+
+.destination-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    justify-items:center;
+}
