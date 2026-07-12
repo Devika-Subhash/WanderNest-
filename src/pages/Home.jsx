@@ -5,6 +5,7 @@ import WhyChoose from "../components/WhyChoose/WhyChoose";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Statistics from "../components/Statistics/Statistics";
 import Newsletter from "../components/Newsletter/Newsletter";
+import Footer from "../components/Footer/Footer";
 function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ function Home() {
       <Testimonials />
       <Statistics />
       <Newsletter />
+      <Footer  />
     </>
   );
 }
