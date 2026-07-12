@@ -1,0 +1,71 @@
+.newsletter{
+    padding: 100px 8%;
+    background:
+        linear-gradient(rgba(22,92,67,.50), rgba(22,92,67,.60)),
+        url("../../assets/images/newsletter-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius:10px;
+    overflow:hidden;
+    color: white;
+    text-align: center;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+    
+}
+
+.newsletter-content{
+    max-width:700px;
+    margin:auto;
+}
+
+.newsletter h2{
+    font-size:2.8rem;
+    margin-bottom:20px;
+}
+
+.newsletter p{
+    line-height:1.8;
+    margin-bottom:40px;
+    color:rgba(255,255,255,.9);
+}
+
+.newsletter-form{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.newsletter-form input{
+    width:420px;
+    max-width:100%;
+    padding:16px 20px;
+    border:none;
+    border-radius:60px;
+    outline:none;
+    font-size:1rem;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.newsletter-form button{
+    padding:16px 32px;
+    border:none;
+    border-radius:60px;
+    background:white;
+    color:var(--primary);
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.newsletter-form button:hover{
+    transform:translateY(-3px);
+    background:#f3f3f3;
+}
+
+.newsletter-form input::placeholder{
+    color:#777;
+}

@@ -4,6 +4,7 @@ import PopularDestinations from "../components/PopularDestinations/PopularDestin
 import WhyChoose from "../components/WhyChoose/WhyChoose";
 import Testimonials from "../components/Testimonials/Testimonials";
 import Statistics from "../components/Statistics/Statistics";
+import Newsletter from "../components/Newsletter/Newsletter";
 function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ function Home() {
       <WhyChoose />
       <Testimonials />
       <Statistics />
+      <Newsletter />
     </>
   );
 }
