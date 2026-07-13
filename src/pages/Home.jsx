@@ -6,12 +6,13 @@ import Testimonials from "../components/Testimonials/Testimonials";
 import Statistics from "../components/Statistics/Statistics";
 import Newsletter from "../components/Newsletter/Newsletter";
 import Footer from "../components/Footer/Footer";
+import destinations from "../data/destinations";
 function Home() {
   return (
     <>
       <Navbar />
       <Hero />
-      <PopularDestinations  />
+      <PopularDestinations destinations={destinations} />
       <WhyChoose />
       <Testimonials />
       <Statistics />

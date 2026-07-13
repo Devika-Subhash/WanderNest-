@@ -1,36 +1,26 @@
+import DestinationCard from "../DestinationCard/DestinationCard";
 import "./PopularDestinations.css";
 
-import DestinationCard from "../DestinationCard/DestinationCard";
-
-import destinations from "../../data/destinations";
-
-function PopularDestinations() {
+function PopularDestinations({ destinations }) {
   return (
     <section className="popular-destinations">
-
-      <h2>Popular Destinations</h2>
-
-      <p>
-        Explore the world's most loved destinations carefully selected for unforgettable experiences.
-      </p>
-
-      <div className="destination-grid">
-
-        {destinations.map((destination) => (
-          <DestinationCard
-            key={destination.id}
-            image={destination.image}
-            name={destination.name}
-            country={destination.country}
-            rating={destination.rating}
-            reviews={destination.reviews}
-            duration={destination.duration}
-            price={destination.price}
-          />
-        ))}
-
+      <div className="section-title">
+        <h2>Popular Destinations</h2>
+        <p>Discover our most loved destinations around the world.</p>
       </div>
 
+      <div className="destination-grid">
+        {destinations.length > 0 ? (
+          destinations.map((destination) => (
+            <DestinationCard
+              key={destination.id}
+              {...destination}
+            />
+          ))
+        ) : (
+          <h2>No destinations found.</h2>
+        )}
+      </div>
     </section>
   );
 }
