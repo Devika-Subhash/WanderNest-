@@ -10,10 +10,14 @@ import destinations from "../data/destinations";
 
 function Destinations() {
   const [search, setSearch] = useState("");
+  const [category, setCategory] = useState("All");
 
-  const filteredDestinations = destinations.filter((destination) =>
-    destination.name.toLowerCase().includes(search.toLowerCase())
-  );
+  const filteredDestinations = destinations.filter((destination) => {
+  const matchesSearch = destination.name.toLowerCase().includes(search.toLowerCase());
+  const matchesCategory = category === "All" || destination.category === category;
+  return matchesSearch && matchesCategory;
+});
+  
 
   return (
     <>
@@ -23,6 +27,8 @@ function Destinations() {
       <SearchFilter
         search={search}
         setSearch={setSearch}
+         category={category}
+         setCategory={setCategory}
       />
 
       <PopularDestinations destinations={filteredDestinations} />

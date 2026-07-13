@@ -18,7 +18,7 @@ function PopularDestinations({ destinations }) {
             />
           ))
         ) : (
-          <h2>No destinations found.</h2>
+          <h2>Try a different keyword or category..</h2>
         )}
       </div>
     </section>
