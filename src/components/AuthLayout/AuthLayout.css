@@ -1,0 +1,56 @@
+.auth{
+    min-height:100vh;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.auth-left{
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.auth-overlay{
+    position:absolute;
+    inset:0;
+    background:rgba(22,92,67,.65);
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+    padding:40px;
+}
+
+.auth-overlay h1{
+    font-size:3.5rem;
+    margin-bottom:20px;
+}
+
+.auth-overlay p{
+    max-width:450px;
+    line-height:1.8;
+}
+
+.auth-right{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+    background:#fff;
+}
+
+@media(max-width:900px){
+
+    .auth{
+        grid-template-columns:1fr;
+    }
+
+    .auth-left{
+        display:none;
+    }
+
+}

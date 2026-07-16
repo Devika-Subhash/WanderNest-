@@ -1,5 +1,12 @@
+import AuthLayout from "../components/AuthLayout/AuthLayout";
+import SignupForm from "../components/SignupForm/SignupForm";
+
 function Signup() {
-  return <h1>Signup</h1>;
+  return (
+    <AuthLayout>
+      <SignupForm />
+    </AuthLayout>
+  );
 }
 
 export default Signup;
