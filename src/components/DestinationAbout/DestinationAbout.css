@@ -1,0 +1,32 @@
+.destination-about{
+    padding:70px 8%;
+    background:#f3f8f6;
+}
+
+.about-container{
+    max-width:1000px;
+    margin:auto;
+    text-align: center;
+}
+
+.about-tag{
+    display:inline-block;
+    background:rgba(45,106,79,.1);
+    color:var(--primary);
+    padding:8px 18px;
+    border-radius:50px;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+.about-content h2{
+    font-size:2.8rem;
+    color:var(--text-dark);
+    margin-bottom:25px;
+}
+
+.about-content p{
+    font-size:1.1rem;
+    line-height:2;
+    color:var(--text-light);
+}

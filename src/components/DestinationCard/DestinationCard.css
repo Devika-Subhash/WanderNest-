@@ -75,3 +75,9 @@
 .destination-card:hover .destination-image{
     transform:scale(1.06);
 }
+
+.destination-link{
+    text-decoration:none;
+    color:inherit;
+    display:block;
+}
