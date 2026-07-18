@@ -118,19 +118,20 @@ WanderNest/
 
 ## 🏠 Home Page
 
-
+![Home](screenshots/home.png)
 
 ---
 
 ## 🌍 Destinations
 
-
+![Destinations](screenshots/Destinations.png)
+![Destination Details](screenshots/Destinations1.png)
 
 ---
 
 ## 📱 Mobile View
 
-
+![Mobile View](screenshots/Mobileview.png)
 
 ---
 
