@@ -113,7 +113,6 @@ WanderNest/
 ```
 
 ---
-
 # 📸 Screenshots
 
 ## 🏠 Home Page
