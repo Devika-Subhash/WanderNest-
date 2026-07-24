@@ -9,7 +9,7 @@ A modern, responsive travel website built with **React.js** and **Vite**, design
 <p>
   <a href="https://wandernest-liart.vercel.app/" target="_blank">
     <img src="https://img.shields.io/badge/🚀 Live Demo-Visit Website-success?style=for-the-badge" />
-  </a>
+  </a> 
   <a href="https://github.com/Devika-Subhash/WanderNest" target="_blank">
     <img src="https://img.shields.io/badge/💻 GitHub-Repository-black?style=for-the-badge" />
   </a>
